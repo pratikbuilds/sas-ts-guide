@@ -1,0 +1,17 @@
+{
+  "name": "sas-test",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.31.1",
+    "@solana/spl-token": "^0.4.13",
+    "gill": "^0.10.2",
+    "sas-lib": "^1.0.6"
+  }
+}
