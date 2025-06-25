@@ -82,3 +82,10 @@ For full, practical implementation examples, please refer to the `index.test.ts`
 | `mintAccountSpace`      | `number`            | The calculated size in bytes for the mint account with extensions.                  |
 | `tokenProgram`          | `Address`           | The SPL Token-2022 Program address.                                                 |
 | _Various_               | _Address, string_   | Includes other required PDAs and metadata (`credential`, `schema`, `symbol`, etc.). |
+
+---
+
+## References
+
+- **Official Documentation:** For more detailed concepts and API references, visit the [Solana Attestation Service Docs](https://attest.solana.com/docs).
+- **Source Code:** To explore the on-chain program and the SDK's implementation, view the [main codebase on GitHub](https://github.com/solana-foundation/solana-attestation-service).
